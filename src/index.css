@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+#nav{
+    background-color: #F4CCD6;
+
+}
+
+#newarive{
+    background-color: #f3d1d9;
+}
+
+#arrivaltext{
+    font-family: 'Dancing Script';font-size: 22px;
+}
+
+#footer{
+    background-color: #de8ea2;
+}
+
+#footerbtn{
+    color: #de8ea2;
+}
+
+#footerbtn:hover {
+    color: white;
+}
+
+#shop{
+    background-color: #de8ea2;
+}
+
+#shop-header{
+    font-family: 'Dancing Script';
+}
+
+#shop-btn{
+    background-color:white;
+    
+}
+
+#contact{
+    background-color: #de8ea2;
+}
+#about{
+    background-color: #de8ea2;
+}
