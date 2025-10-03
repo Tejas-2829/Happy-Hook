@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import Footer from './Components/Footer/Footer.jsx'
-import Header from './Components/Header/Navbar.jsx'
+import Footer from './Frontend/Components/Footer/Footer.jsx'
+import Header from './Frontend/Components/Header/Navbar.jsx'
 import { Outlet } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <Header />
+      <div className='pt-19'>
       <Outlet />
+      </div>
       <Footer />
     </>
   )
